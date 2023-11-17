@@ -1,0 +1,41 @@
+#geocode-container {
+    padding: 2em;
+    background-color: rgb(46, 46, 48);
+    color: white;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 1em
+}
+
+button {
+    padding: 0.5em;
+
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    font-size: 1em;
+    width: 500px;
+}
+
+.title {
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+.pos {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
